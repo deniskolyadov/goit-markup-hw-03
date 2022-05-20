@@ -1,0 +1,247 @@
+:root {
+    --brand-color: #2196f3;
+    --main-text-color: #212121;
+    --second-text-color: #757575;
+}
+
+body {
+    color: var(--second-text-color);
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+main {
+    letter-spacing: 0.03em;
+}
+/* Шапка */
+.header {
+    letter-spacing: 0.02em;
+}
+
+.logo-header {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-footer {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.web-logo{
+    color: var(--brand-color);
+}
+
+.menu{
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: var(--main-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.current {
+    color: var(--brand-color);
+}
+
+.contacts {
+    list-style-type: none;
+}
+
+.contacts .menu-item{
+    color: var(--second-text-color);
+}
+
+.menu-item:hover {
+    color: var(--brand-color);
+}
+
+/* Банер */
+.banner {
+    background-color: #2F303A;
+}
+
+.banner h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.banner button {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: var(--brand-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.hero-button {
+    font-family: inherit;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #188CE8;
+}
+
+/* Особенности */
+
+.benefits h3 {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.benefits-list {
+    list-style-type: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Чем мы занимаемся */
+
+.development h2 {
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.dev-list {
+    list-style-type: none;
+}
+
+/* Команда */
+.our-team {
+    background-color: #f5f4fa;
+}
+
+.our-team h2 {
+    color: var(--main-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+}
+
+.our-team .name {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.our-team .profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+}
+
+.team-list {
+    list-style-type: none;
+}
+
+/*ПОРТФОЛИО*/
+
+.portfolio-menu{
+    list-style-type: none;
+}
+
+.portfolio-menu button {
+    cursor: pointer;
+    color: var(--main-text-color);
+    background-color: #f5f4fa;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-menu button:hover,
+.portfolio-menu button:focus {
+    color: #ffffff;
+    background-color: var(--brand-color);
+}
+.works {
+    list-style-type: none;
+}
+
+.works h2 {
+    color: var(--main-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.works p {
+    color: var(--second-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0.87;
+    letter-spacing: 0.03em;
+}
+
+.works-link {
+    text-decoration: none;
+}
+
+/* Подвал */
+.footer {
+    background-color: #2f303a;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer .adress {
+    font-style: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .email {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer .email:hover {
+    color: var(--brand-color);
+}
+.footer .phone {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+.footer .phone:hover {
+    color: var(--brand-color);
+}
