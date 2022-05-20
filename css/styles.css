@@ -10,12 +10,61 @@ body {
     
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main {
     letter-spacing: 0.03em;
 }
 /* Шапка */
 .header {
     letter-spacing: 0.02em;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
 }
 
 .logo-header {
@@ -26,6 +75,7 @@ main {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin: 25px 93px 25px 0px;
 }
 
 .logo-footer {
@@ -38,22 +88,27 @@ main {
     letter-spacing: 0.03em;
 }
 
-.web-logo{
+.web-logo {
     color: var(--brand-color);
 }
 
-.menu{
-    list-style-type: none;
-    cursor: pointer;
+.menu {
+        display: flex;
 }
 
-.menu-item {
-    text-decoration: none;
-    color: var(--main-text-color);
+.menu-item:not(:last-child) {
+    margin-right: 50px;
+}
 
+.menu-item-link {
+    color: var(--main-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+}
+
+.menu-item-link:hover {
+    color: var(--brand-color);
 }
 
 .current {
@@ -61,17 +116,23 @@ main {
 }
 
 .contacts {
-    list-style-type: none;
+    display: flex;
 }
 
-.contacts .menu-item{
+.contacts-item-link {
     color: var(--second-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
-.menu-item:hover {
+.contacts-item-link:hover {
     color: var(--brand-color);
 }
 
+.contacts-item:first-child {
+    margin-right: 50px;
+}
 /* Банер */
 .banner {
     background-color: #2F303A;
@@ -119,7 +180,6 @@ main {
 }
 
 .benefits-list {
-    list-style-type: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -136,9 +196,6 @@ main {
     text-align: center;
 }
 
-.dev-list {
-    list-style-type: none;
-}
 
 /* Команда */
 .our-team {
@@ -166,16 +223,12 @@ main {
     line-height: 1.19;
 }
 
-.team-list {
-    list-style-type: none;
-}
 
 /*ПОРТФОЛИО*/
 
-.portfolio-menu{
-    list-style-type: none;
+.hide-title{
+    display: none;
 }
-
 .portfolio-menu button {
     cursor: pointer;
     color: var(--main-text-color);
@@ -187,13 +240,16 @@ main {
     letter-spacing: 0.06em;
 }
 
+.portfolio-menu {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .portfolio-menu button:hover,
 .portfolio-menu button:focus {
     color: #ffffff;
     background-color: var(--brand-color);
-}
-.works {
-    list-style-type: none;
 }
 
 .works h2 {
@@ -212,10 +268,6 @@ main {
     letter-spacing: 0.03em;
 }
 
-.works-link {
-    text-decoration: none;
-}
-
 /* Подвал */
 .footer {
     background-color: #2f303a;
@@ -227,12 +279,10 @@ main {
 .footer .adress {
     font-style: normal;
     color: #ffffff;
-    text-decoration: none;
 }
 
 .footer .email {
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
 }
 
 .footer .email:hover {
@@ -240,7 +290,6 @@ main {
 }
 .footer .phone {
     color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
 }
 .footer .phone:hover {
     color: var(--brand-color);
