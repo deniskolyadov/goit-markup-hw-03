@@ -25,10 +25,10 @@
             <nav class="navigation">
                 <ul class="menu list">
                     <li class="menu-item">
-                        <a class="menu-item-link link current" href="./">Студия</a>
+                        <a class="menu-item-link link" href="./">Студия</a>
                     </li>
                     <li class="menu-item">
-                        <a class="menu-item-link link" href="./portfolio.html">Портфолио</a>
+                        <a class="menu-item-link link current" href="./portfolio.html">Портфолио</a>
                     </li>
                     <li class="menu-item">
                         <a class="menu-item-link link" href="">Контакты</a>
@@ -51,73 +51,84 @@
     <main>
 
         <!--portfolio-->
-        <section class="portfolio">
-            <h1 class="hide-title">Наши работы</h1>
+        <section class="portfolio section">
+        <div class="container">
+            <h1 class="visually-hidden">Наши работы</h1>
             <ul class="portfolio-menu list">
-                <li><button type="button" value="Все">Все</button></li>
-                <li><button type="button" value="Веб-сайты">Веб-сайты</button></li>
-                <li><button type="button" value="Приложения">Приложения</button></li>
-                <li><button type="button" value="Дизайн">Дизайн</button></li>
-                <li><button type="button" value="Маркетинг">Маркетинг</button></li>
+                <li class="portfolio-menu-item">
+                    <button class="portfolio-button" type="button" value="Все">Все</button>
+                </li>
+                <li class="portfolio-menu-item">
+                    <button class="portfolio-button" type="button" value="Веб-сайты">Веб-сайты</button>
+                </li>
+                <li class="portfolio-menu-item">
+                    <button class="portfolio-button" type="button" value="Приложения">Приложения</button>
+                </li>
+                <li class="portfolio-menu-item">
+                    <button class="portfolio-button" type="button" value="Дизайн">Дизайн</button>
+                </li>
+                <li class="portfolio-menu-item">
+                    <button class="portfolio-button" type="button" value="Маркетинг">Маркетинг</button>
+                </li>
             </ul>
             <ul class="works list">
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/technocrack.jpg" width="370" height="294" alt="Веб сайт Технокряк">
                         <h2>Технокряк</h2>
                         <p>Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/poster.jpg" width="370" height="294" alt="Постер New Orlean vs Golden Star">
                         <h2>Постер New Orlean vs Golden Star</h2>
                         <p>Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/seafood.jpg" width="370" height="294" alt="Приложение Ресторан Seafood">
                         <h2>Ресторан Seafood</h2>
                         <p>Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/prime.jpg" width="370" height="294" alt="Проект Prime">
                         <h2>Проект Prime</h2>
                         <p>Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/boxes.jpg" width="370" height="294" alt="Проект Boxes">
                         <h2>Проект Boxes</h2>
                         <p>Приложение</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/inspiration.jpg" width="370" height="294" alt="Inspiration has no Borders">
                         <h2>Inspiration has no Borders</h2>
                         <p>Веб-сайт</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/limited-edition.jpg" width="370" height="294" alt="Издание Limited Edition">
                         <h2>Издание Limited Edition</h2>
                         <p>Дизайн</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/lab.jpg" width="370" height="294" alt="Проект LAB">
                         <h2>Проект LAB</h2>
                         <p>Маркетинг</p>
                     </a>
                 </li>
-                <li>
+                <li class="works-item">
                     <a class="works-link link" href="#">
                         <img src="./images/portfolio/growing-business.jpg" width="370" height="294" alt="Приложение Growing Business">
                         <h2>Growing Business</h2>
@@ -125,17 +136,18 @@
                     </a>
                 </li>
             </ul>
+        </div>
         </section>
     </main>
 
     <!--footer-->
     <footer class="footer">
-        <div>
+        <div class="container footer-container">
             <a class="logo-footer link" href="./"><span class="web-logo">Web</span>Studio</a>
             <address class="adress">
-                г. Киев, пр-т Леси Украинки, 26
-                <a class="email link" href="mailto:info@example.com">info@example.com</a>
-                <a class="phone link" href="tel:+380991111111">+38 099 111 11 11</a>
+                <p class="adress-item">г. Киев, пр-т Леси Украинки, 26</p>
+                <a class="adress-item email link" href="mailto:info@example.com">info@example.com</a>
+                <a class="adress-item phone link" href="tel:+380991111111">+38 099 111 11 11</a>
             </address>
         </div>
     </footer>
