@@ -93,7 +93,7 @@ main {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    margin: 25px 93px 25px 0px;
+    margin: 24px 93px 25px 0px;
 }
 
 .logo-footer {
@@ -383,7 +383,7 @@ margin-right: 8px;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    margin: 20px 4px 24px 24px;
+    margin: 20px 24px 4px 24px;
 
 }
 
@@ -393,7 +393,7 @@ margin-right: 8px;
     font-size: 16px;
     line-height: 0.87;
     letter-spacing: 0.03em;
-    margin: 0px 20px 24px 24px;
+    margin: 0px 24px 20px 24px;
 }
 
 .works-link {
