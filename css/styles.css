@@ -170,8 +170,9 @@ main {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-bottom: 30px;
-    text-align: center;
+    width: 700px;
+    display: table;
+    margin: 0 auto 30px;
   
 }
 
@@ -331,13 +332,12 @@ main {
 }
 
 .portfolio-menu {
-    display: flex;
-    margin-bottom: 50px;
-
+    display: table;
+    margin: 0 auto 50px;
 }
 
 .portfolio-menu-item{
-  display: block;
+  display:inline-block;
     
 }
 
