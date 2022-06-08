@@ -265,7 +265,7 @@ main {
 }
 
 .dev-item:not(:last-child){
-    margin-right: 27px;
+    margin-right: 30px;
 }
 /* Команда */
 .our-team {
@@ -376,8 +376,8 @@ main {
 .works {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: -30px;
-    margin-right: -30px;
+   /* margin-bottom: -30px;
+    margin-right: -30px; */
     flex-basis: calc((100%-66px)/3);
 }
 
